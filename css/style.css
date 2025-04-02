@@ -1,0 +1,54 @@
+/* Custom styles to enhance Bootstrap components */
+
+/* Hero section styles */
+.hero-section {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    padding: 100px 0;
+}
+
+/* Card hover effects */
+.card {
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Custom form styles */
+.form-control {
+    border-radius: 0;
+    border: 1px solid #ddd;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #007bff;
+}
+
+/* Custom button styles */
+.btn {
+    border-radius: 0;
+    padding: 10px 20px;
+}
+
+/* About section image */
+.img-fluid {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Navbar customization */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Footer customization */
+footer {
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
